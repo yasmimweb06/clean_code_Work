@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ece90c
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    padding: 90px;
+ gap: 20px;
+}
+article p{
+    font-size: 1.5em;
+}
+/* Mover o primeiro article mais para cima */
+article:first-of-type {
+    margin-top: -60px; /* Remove margem superior */
+    padding-top: 20px; /* Pequeno espaçamento superior */
+    background-color:#ebf916 ;
+    border: 2px solid #000; /* Borda de 2px de espessura e cor preta */
+    border-radius: 15px; /* Torna as bordas arredondadas */
+    padding: 60px; /* Espaçamento interno para o conteúdo não ficar colado na borda */
+ /* width: 95%; */
+ 
+}
+article:nth-of-type(2) {
+    background-color:#ebf916 ;
+    border-radius: 15px;
+    padding: 60px;
+    margin-top: 10px;
+    border: 2px solid #000;
+}
+header {
+padding-top: 100px;
+padding-bottom: 50px;
+    
+}
+header h1 {
+    color: #1d1d1b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+header h2 {
+
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    top: -150;
+    
+}
+
+article>img {
+    width: 300px;
+    margin: 3px;
+    align-items: center;
+    padding: auto;
+
+}
+article:nth-of-type(2) img {
+    width: 300px;  }
+/* Selecionando a imagem com a classe .second-image */
+
+
+
+
